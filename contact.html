@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="icon" href="./imgs/icon.svg">
+        <link href="./css/bootstrap-grid.css" rel="stylesheet">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col logo">
+                        <a href="">
+                            <img src="./imgs/logo.svg" alt="the logo">
+                        </a>
+                    </div>
+
+                    <nav class="col text-center disappear-nav">
+                        <ul class="d-flex justify-content-center gap-3">
+                            <li>
+                                <a  href="./index.html">HOME</a>
+                            </li>
+
+                            <li>
+                                <a  href="./about.html">ABOUT US</a>
+                            </li>
+
+                            <li>
+                                <a href="./faq.html">FAQ</a>
+                            </li>
+
+                            <li>
+                                <a class="active"  href="./contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="col position">
+                        <a href="" class="main-link">Get An Appointment
+                            <svg  viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z" fill="white"/>
+                            </svg>  
+                        </a>                          
+                    </div>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 40 24" fill="none">
+                            <path d="M2 4H38C38.5304 4 39.0391 3.78929 39.4142 3.41421C39.7893 3.03914 40 2.53043 40 2C40 1.46957 39.7893 0.96086 39.4142 0.585787C39.0391 0.210714 38.5304 0 38 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585787C0.210714 0.96086 0 1.46957 0 2C0 2.53043 0.210714 3.03914 0.585786 3.41421C0.960859 3.78929 1.46957 4 2 4ZM38 20H2C1.46957 20 0.960859 20.2107 0.585786 20.5858C0.210714 20.9609 0 21.4696 0 22C0 22.5304 0.210714 23.0391 0.585786 23.4142C0.960859 23.7893 1.46957 24 2 24H38C38.5304 24 39.0391 23.7893 39.4142 23.4142C39.7893 23.0391 40 22.5304 40 22C40 21.4696 39.7893 20.9609 39.4142 20.5858C39.0391 20.2107 38.5304 20 38 20ZM38 10H2C1.46957 10 0.960859 10.2107 0.585786 10.5858C0.210714 10.9609 0 11.4696 0 12C0 12.5304 0.210714 13.0391 0.585786 13.4142C0.960859 13.7893 1.46957 14 2 14H38C38.5304 14 39.0391 13.7893 39.4142 13.4142C39.7893 13.0391 40 12.5304 40 12C40 11.4696 39.7893 10.9609 39.4142 10.5858C39.0391 10.2107 38.5304 10 38 10Z" fill="#292F36"/>
+                        </svg>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <nav class="col text-center">
+                                <ul class="d-flex justify-content-center gap-3 flex-c">
+                                    <li>
+                                        <a  href="./index.html">HOME</a>
+                                    </li>
+        
+                                    <li>
+                                        <a  href="./about.html">ABOUT US</a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="./faq.html">FAQ</a>
+                                    </li>
+        
+                                    <li>
+                                        <a class="active" href="./contact.html">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="col appear">
+                                <a href="" class="main-link">Get An Appointment
+                                    <svg viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z" fill="white"/>
+                                    </svg>  
+                                </a>                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero-section-about">
+            <div class="container d-flex flex-column justify-content-center">
+                <h1>Contact</h1>
+                <ul class="d-flex gap-3">
+                    <li class="d-flex gap-3 align-items-center">
+                        <a href="./index.html">Home</a>
+                        <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 12.5C1.71875 12.5 1.46875 12.4062 1.28125 12.2188C0.875 11.8438 0.875 11.1875 1.28125 10.8125L5.5625 6.5L1.28125 2.21875C0.875 1.84375 0.875 1.1875 1.28125 0.8125C1.65625 0.40625 2.3125 0.40625 2.6875 0.8125L7.6875 5.8125C8.09375 6.1875 8.09375 6.84375 7.6875 7.21875L2.6875 12.2188C2.5 12.4062 2.25 12.5 2 12.5Z" fill="white"/>
+                        </svg>                            
+                    </li>
+
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./imgs/form-img.png">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column gap-3 justify-content-center">
+                            <h4 class="d-flex gap-3">
+                                Contact Information
+                                <svg width="14px" height="14px"  viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_2369)">
+                                    <path d="M4.9248 10.3748L6.49525 9.68052L5.62485 9.07031L4.9248 10.3748Z" fill="#83CD20"/>
+                                    <path d="M4.9248 10.3743L4.99976 8L13.9078 0L5.66407 9.1113L4.9248 10.3743Z" fill="#83CD20"/>
+                                    <path d="M5 8L13.908 0L0 6.22704L5 8Z" fill="#83CD20"/>
+                                    <path d="M5.66406 9.1113L9.95686 12L13.9078 0L5.66406 9.1113Z" fill="#034833"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_2369">
+                                    <rect width="13.908" height="12" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                                    
+                            </h4>
+
+                            <h2>Let Your Wanderlust Guide You</h2>
+
+                            <form class="d-flex flex-column gap-3" action="" method="post" target="_blank">
+                                <div class="d-flex gap-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <label for="email">Your Email</label>
+
+                                        <div class="form-icon">
+                                            <input id="email" class="input-control" type="email" placeholder="Your Email">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.9727 1.76172L13.2227 13.1094C13.1953 13.3828 13.0312 13.6289 12.7852 13.7656C12.6484 13.8203 12.5117 13.875 12.3477 13.875C12.2383 13.875 12.1289 13.8477 12.0195 13.793L8.68359 12.3984L7.28906 14.4766C7.17969 14.668 6.98828 14.75 6.79688 14.75C6.49609 14.75 6.25 14.5039 6.25 14.2031V11.5781C6.25 11.3594 6.30469 11.168 6.41406 11.0312L12.375 3.375L4.33594 10.6211L1.51953 9.44531C1.21875 9.30859 1 9.03516 1 8.67969C0.972656 8.29688 1.13672 8.02344 1.4375 7.85938L13.6875 0.886719C13.9609 0.722656 14.3438 0.722656 14.6172 0.914062C14.8906 1.10547 15.0273 1.43359 14.9727 1.76172Z" fill="#034833"/>
+                                            </svg>                                                
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column gap-3">
+                                        <label for="number">Your Phone</label>
+
+                                        <div class="form-icon">
+                                            <input id="number" class="input-control" type="tel" placeholder="Your Phone">
+                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.9727 11.332L13.3164 14.0938C13.2344 14.5039 12.9062 14.7773 12.4961 14.7773C5.60547 14.75 0 9.14453 0 2.25391C0 1.84375 0.246094 1.51562 0.65625 1.43359L3.41797 0.777344C3.80078 0.695312 4.21094 0.914062 4.375 1.26953L5.66016 4.25C5.79688 4.60547 5.71484 5.01562 5.41406 5.23438L3.9375 6.4375C4.86719 8.32422 6.39844 9.85547 8.3125 10.7852L9.51562 9.30859C9.73438 9.03516 10.1445 8.92578 10.5 9.0625L13.4805 10.3477C13.8359 10.5391 14.0547 10.9492 13.9727 11.332Z" fill="#034833"/>
+                                            </svg>                                                                                               
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column gap-3">
+                                    <label for="address">Your Address</label>
+
+                                    <div class="form-icon">
+                                        <input id="address" class="input-control" type="text" placeholder="Your Address">
+                                        <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.59375 14.4219C3.17188 12.6445 0 8.40625 0 6C0 3.10156 2.32422 0.75 5.25 0.75C8.14844 0.75 10.5 3.10156 10.5 6C10.5 8.40625 7.30078 12.6445 5.87891 14.4219C5.55078 14.832 4.92188 14.832 4.59375 14.4219ZM5.25 7.75C6.20703 7.75 7 6.98438 7 6C7 5.04297 6.20703 4.25 5.25 4.25C4.26562 4.25 3.5 5.04297 3.5 6C3.5 6.98438 4.26562 7.75 5.25 7.75Z" fill="#034833"/>
+                                        </svg>                                                                                                                                          
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column gap-3">
+                                    <label for="message">Message</label>
+
+                                    <div class="form-icon-textarea">
+                                        <textarea class="input-control" id="message" placeholder="Write Message.."></textarea>
+                                        <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.6875 0.5C13.3984 0.5 14 1.10156 14 1.8125C14 2.25 13.7812 2.63281 13.4531 2.87891L7.51953 7.33594C7.19141 7.58203 6.78125 7.58203 6.45312 7.33594L0.519531 2.87891C0.191406 2.63281 0 2.25 0 1.8125C0 1.10156 0.574219 0.5 1.3125 0.5H12.6875ZM5.93359 8.04688C6.5625 8.51172 7.41016 8.51172 8.03906 8.04688L14 3.5625V9.25C14 10.2344 13.207 11 12.25 11H1.75C0.765625 11 0 10.2344 0 9.25V3.5625L5.93359 8.04688Z" fill="#034833"/>
+                                        </svg>                                                                                                                                                                                     
+                                    </div>
+                                </div>
+
+                                <input type="submit" placeholder="Send Message" class="input-control submit-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="guid-section">
+            <div class="container">
+                <div class="guid-heading d-flex flex-column justify-content-center align-items-center">
+                    <h4>Contact Information</h4>
+                    <h2>Let Your Wanderlust Guide You</h2>
+                </div>
+                
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Asia</button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Europe</button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">North America</button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Australia</button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="row justify-content-around">
+                              <div class="col">
+                                  <ul class="d-flex flex-column gap-3 first-ul">
+                                      <li class="d-flex gap-3 align-items-center">
+                                          <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M24.9512 19.0215L23.7793 23.9531C23.6328 24.6855 23.0469 25.1738 22.3145 25.1738C10.0098 25.125 0 15.1152 0 2.81055C0 2.07812 0.439453 1.49219 1.17188 1.3457L6.10352 0.173828C6.78711 0.0273438 7.51953 0.417969 7.8125 1.05273L10.1074 6.375C10.3516 7.00977 10.2051 7.74219 9.66797 8.13281L7.03125 10.2812C8.69141 13.6504 11.4258 16.3848 14.8438 18.0449L16.9922 15.4082C17.3828 14.9199 18.1152 14.7246 18.75 14.9688L24.0723 17.2637C24.707 17.6055 25.0977 18.3379 24.9512 19.0215Z" fill="#83CD20"/>
+                                          </svg> 
+                                          
+                                          <div class="d-flex flex-column gap-3 justify-content-center">
+                                              <span>Requesting A Call:</span>
+                                              <a href="">(629) 555-0129</a>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex gap-3 align-items-center">
+                                          <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M22.6562 0.25C23.9258 0.25 25 1.32422 25 2.59375C25 3.375 24.6094 4.05859 24.0234 4.49805L13.4277 12.457C12.8418 12.8965 12.1094 12.8965 11.5234 12.457L0.927734 4.49805C0.341797 4.05859 0 3.375 0 2.59375C0 1.32422 1.02539 0.25 2.34375 0.25H22.6562ZM10.5957 13.7266C11.7188 14.5566 13.2324 14.5566 14.3555 13.7266L25 5.71875V15.875C25 17.6328 23.584 19 21.875 19H3.125C1.36719 19 0 17.6328 0 15.875V5.71875L10.5957 13.7266Z" fill="#83CD20"/>
+                                          </svg>                                            
+                                          
+                                          <div class="d-flex flex-column gap-3 justify-content-center">
+                                              <span>Email:</span>
+                                              <a href="">info@example.com</a>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex gap-3 align-items-center">
+                                          <svg width="19" height="26" viewBox="0 0 19 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M8.20312 24.5391C5.66406 21.3652 0 13.7969 0 9.5C0 4.32422 4.15039 0.125 9.375 0.125C14.5508 0.125 18.75 4.32422 18.75 9.5C18.75 13.7969 13.0371 21.3652 10.498 24.5391C9.91211 25.2715 8.78906 25.2715 8.20312 24.5391ZM9.375 12.625C11.084 12.625 12.5 11.2578 12.5 9.5C12.5 7.79102 11.084 6.375 9.375 6.375C7.61719 6.375 6.25 7.79102 6.25 9.5C6.25 11.2578 7.61719 12.625 9.375 12.625Z" fill="#83CD20"/>
+                                          </svg>                                            
+                                          
+                                          <div class="d-flex flex-column gap-3 justify-content-center">
+                                              <span>Location:</span>
+                                              <a href="">6391 Elgin St. Celina, <br>Delaware 10299</a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+
+                              <div class="col">
+                                <ul class="d-flex flex-column gap-3">
+                                    <li class="d-flex flex-column gap-3">
+                                        <span>Monday</span>
+
+                                        <div class="d-flex align-items-center gap-3">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                            </svg>  
+                                            
+                                            <p>9 am - 8 pm</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column gap-3">
+                                        <span>Tuesday-Friday</span>
+
+                                        <div class="d-flex align-items-center gap-3">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                            </svg>  
+                                            
+                                            <p>12 am - 9 pm</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column gap-3">
+                                        <span>Saturday</span>
+
+                                        <div class="d-flex align-items-center gap-3">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                            </svg>  
+                                            
+                                            <p>8 am - 3 pm</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                              </div>
+
+                              <div class="col">
+                                <img src="./imgs/guid-img.png">
+                              </div>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="col">
+                                    <ul class="d-flex flex-column gap-3 first-ul">
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24.9512 19.0215L23.7793 23.9531C23.6328 24.6855 23.0469 25.1738 22.3145 25.1738C10.0098 25.125 0 15.1152 0 2.81055C0 2.07812 0.439453 1.49219 1.17188 1.3457L6.10352 0.173828C6.78711 0.0273438 7.51953 0.417969 7.8125 1.05273L10.1074 6.375C10.3516 7.00977 10.2051 7.74219 9.66797 8.13281L7.03125 10.2812C8.69141 13.6504 11.4258 16.3848 14.8438 18.0449L16.9922 15.4082C17.3828 14.9199 18.1152 14.7246 18.75 14.9688L24.0723 17.2637C24.707 17.6055 25.0977 18.3379 24.9512 19.0215Z" fill="#83CD20"/>
+                                            </svg> 
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Requesting A Call:</span>
+                                                <a href="">(629) 555-0129</a>
+                                            </div>
+                                        </li>
+    
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M22.6562 0.25C23.9258 0.25 25 1.32422 25 2.59375C25 3.375 24.6094 4.05859 24.0234 4.49805L13.4277 12.457C12.8418 12.8965 12.1094 12.8965 11.5234 12.457L0.927734 4.49805C0.341797 4.05859 0 3.375 0 2.59375C0 1.32422 1.02539 0.25 2.34375 0.25H22.6562ZM10.5957 13.7266C11.7188 14.5566 13.2324 14.5566 14.3555 13.7266L25 5.71875V15.875C25 17.6328 23.584 19 21.875 19H3.125C1.36719 19 0 17.6328 0 15.875V5.71875L10.5957 13.7266Z" fill="#83CD20"/>
+                                            </svg>                                            
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Email:</span>
+                                                <a href="">info@example.com</a>
+                                            </div>
+                                        </li>
+    
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="19" height="26" viewBox="0 0 19 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.20312 24.5391C5.66406 21.3652 0 13.7969 0 9.5C0 4.32422 4.15039 0.125 9.375 0.125C14.5508 0.125 18.75 4.32422 18.75 9.5C18.75 13.7969 13.0371 21.3652 10.498 24.5391C9.91211 25.2715 8.78906 25.2715 8.20312 24.5391ZM9.375 12.625C11.084 12.625 12.5 11.2578 12.5 9.5C12.5 7.79102 11.084 6.375 9.375 6.375C7.61719 6.375 6.25 7.79102 6.25 9.5C6.25 11.2578 7.61719 12.625 9.375 12.625Z" fill="#83CD20"/>
+                                            </svg>                                            
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Location:</span>
+                                                <a href="">6391 Elgin St. Celina, <br>Delaware 10299</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+  
+                                <div class="col">
+                                  <ul class="d-flex flex-column gap-3">
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Monday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>9 am - 8 pm</p>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Tuesday-Friday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>12 am - 9 pm</p>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Saturday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>8 am - 3 pm</p>
+                                          </div>
+                                      </li>
+                                  </ul>
+                                </div>
+  
+                                <div class="col">
+                                  <img src="./imgs/guid-img.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="col">
+                                    <ul class="d-flex flex-column gap-3 first-ul">
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24.9512 19.0215L23.7793 23.9531C23.6328 24.6855 23.0469 25.1738 22.3145 25.1738C10.0098 25.125 0 15.1152 0 2.81055C0 2.07812 0.439453 1.49219 1.17188 1.3457L6.10352 0.173828C6.78711 0.0273438 7.51953 0.417969 7.8125 1.05273L10.1074 6.375C10.3516 7.00977 10.2051 7.74219 9.66797 8.13281L7.03125 10.2812C8.69141 13.6504 11.4258 16.3848 14.8438 18.0449L16.9922 15.4082C17.3828 14.9199 18.1152 14.7246 18.75 14.9688L24.0723 17.2637C24.707 17.6055 25.0977 18.3379 24.9512 19.0215Z" fill="#83CD20"/>
+                                            </svg> 
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Requesting A Call:</span>
+                                                <a href="">(629) 555-0129</a>
+                                            </div>
+                                        </li>
+    
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M22.6562 0.25C23.9258 0.25 25 1.32422 25 2.59375C25 3.375 24.6094 4.05859 24.0234 4.49805L13.4277 12.457C12.8418 12.8965 12.1094 12.8965 11.5234 12.457L0.927734 4.49805C0.341797 4.05859 0 3.375 0 2.59375C0 1.32422 1.02539 0.25 2.34375 0.25H22.6562ZM10.5957 13.7266C11.7188 14.5566 13.2324 14.5566 14.3555 13.7266L25 5.71875V15.875C25 17.6328 23.584 19 21.875 19H3.125C1.36719 19 0 17.6328 0 15.875V5.71875L10.5957 13.7266Z" fill="#83CD20"/>
+                                            </svg>                                            
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Email:</span>
+                                                <a href="">info@example.com</a>
+                                            </div>
+                                        </li>
+    
+                                        <li class="d-flex gap-3 align-items-center">
+                                            <svg width="19" height="26" viewBox="0 0 19 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.20312 24.5391C5.66406 21.3652 0 13.7969 0 9.5C0 4.32422 4.15039 0.125 9.375 0.125C14.5508 0.125 18.75 4.32422 18.75 9.5C18.75 13.7969 13.0371 21.3652 10.498 24.5391C9.91211 25.2715 8.78906 25.2715 8.20312 24.5391ZM9.375 12.625C11.084 12.625 12.5 11.2578 12.5 9.5C12.5 7.79102 11.084 6.375 9.375 6.375C7.61719 6.375 6.25 7.79102 6.25 9.5C6.25 11.2578 7.61719 12.625 9.375 12.625Z" fill="#83CD20"/>
+                                            </svg>                                            
+                                            
+                                            <div class="d-flex flex-column gap-3 justify-content-center">
+                                                <span>Location:</span>
+                                                <a href="">6391 Elgin St. Celina, <br>Delaware 10299</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+  
+                                <div class="col">
+                                  <ul class="d-flex flex-column gap-3">
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Monday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>9 am - 8 pm</p>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Tuesday-Friday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>12 am - 9 pm</p>
+                                          </div>
+                                      </li>
+  
+                                      <li class="d-flex flex-column gap-3">
+                                          <span>Saturday</span>
+  
+                                          <div class="d-flex align-items-center gap-3">
+                                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M10 20C4.45312 20 0 15.5469 0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20ZM9.0625 10C9.0625 10.3125 9.21875 10.625 9.45312 10.7812L13.2031 13.2812C13.6328 13.5938 14.2188 13.4766 14.4922 13.0469C14.8047 12.6172 14.6875 12.0312 14.2578 11.7188L10.9375 9.53125V4.6875C10.9375 4.17969 10.5078 3.75 9.96094 3.75C9.45312 3.75 9.02344 4.17969 9.02344 4.6875L9.0625 10Z" fill="#83CD20"/>
+                                              </svg>  
+                                              
+                                              <p>8 am - 3 pm</p>
+                                          </div>
+                                      </li>
+                                  </ul>
+                                </div>
+  
+                                <div class="col">
+                                  <img src="./imgs/guid-img.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="location-section">
+            <iframe 
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.43102698462!2d29.790074743212344!3d31.224005771185354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1726730679631!5m2!1sen!2seg"  
+             style="border:0; width: 100%; height: 746px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer class="pt-5 pb-5">
+            <div class="upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex flex-column gap-3 justify-content-center">
+                            <a href="">
+                                <svg width="155" height="33" viewBox="0 0 155 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_617_270)">
+                                    <path d="M18.6023 32.6686C15.3714 32.6686 12.2131 31.7106 9.52667 29.9156C6.84028 28.1206 4.74649 25.5693 3.51009 22.5844C2.27368 19.5994 1.95018 16.3149 2.58049 13.1461C3.21081 9.97725 4.76663 7.06651 7.05121 4.78193C9.3358 2.49734 12.2465 0.941522 15.4153 0.311207C18.5842 -0.319108 21.8687 0.00439203 24.8537 1.2408C27.8386 2.47721 30.3899 4.57099 32.1849 7.25738C33.9799 9.94376 34.9379 13.1021 34.9379 16.333C34.9331 20.664 33.2105 24.8163 30.148 27.8787C27.0855 30.9412 22.9333 32.6639 18.6023 32.6686Z" fill="#83CD20"/>
+                                    <path d="M18.6023 31.673C21.6362 31.673 24.6021 30.7734 27.1247 29.0878C29.6474 27.4022 31.6136 25.0064 32.7746 22.2034C33.9357 19.4003 34.2395 16.316 33.6476 13.3403C33.0557 10.3646 31.5947 7.63127 29.4493 5.48593C27.304 3.34058 24.5706 1.87958 21.595 1.28768C18.6193 0.695782 15.5349 0.999566 12.7319 2.16062C9.92885 3.32167 7.53306 5.28785 5.84747 7.81051C4.16189 10.3332 3.26221 13.299 3.26221 16.333C3.267 20.3999 4.88472 24.299 7.7605 27.1748C10.6363 30.0505 14.5353 31.6683 18.6023 31.673Z" fill="#034833"/>
+                                    <path d="M38.7808 10.5378C38.5222 10.4421 37.8343 9.63009 34.7441 9.88869C33.7097 9.97661 30.7125 10.9231 26.924 12.1049L18.0541 8.52588L15.3802 8.81034L22.5098 13.4832C20.0402 14.2435 17.4412 15.0167 14.9354 15.6891L9.71949 12.0687L8.27393 12.4617L12.6908 18.1044L11.4159 20.7472L13.2649 20.5274L14.4906 18.756C17.9675 18.6451 21.4284 18.2341 24.8346 17.5277L23.102 24.5098L25.2923 23.5685L28.6851 16.6924C39.373 14.1375 40.2936 12.1825 40.4953 11.6368C40.7125 11.0162 39.042 10.636 38.7808 10.5378Z" fill="#83CD20"/>
+                                    <path d="M4.75977 27.3262L22.5151 24.0937L22.8513 22.1465L4.75977 27.3262Z" fill="#83CD20"/>
+                                    <path d="M2.73486 24.5954L23.2003 20.5173L23.6141 18.4434L2.73486 24.5954Z" fill="#83CD20"/>
+                                    <path d="M11.0568 19.925L1.53516 21.8852L11.6541 18.738L11.0568 19.925Z" fill="#83CD20"/>
+                                    <path d="M11.116 17.1114L0.945312 19.3948L10.3919 16.2891L11.116 17.1114Z" fill="#83CD20"/>
+                                    <path d="M9.55407 14.8176L0.508301 16.9071L8.83 13.9927L9.55407 14.8176Z" fill="#83CD20"/>
+                                    </g>
+                                    <path d="M134.044 28.0636L141.852 16.0636L134.108 4.22363H139.1L145.436 13.9196H143.132L149.436 4.22363H154.428L146.716 16.0636L154.492 28.0636H149.5L143.132 18.2396H145.436L139.036 28.0636H134.044Z" fill="white"/>
+                                    <path d="M125.746 28.4477C123.954 28.4477 122.386 28.0424 121.042 27.2317C119.698 26.4211 118.653 25.3224 117.906 23.9357C117.159 22.5491 116.786 21.0131 116.786 19.3277C116.786 17.5784 117.159 16.0317 117.906 14.6877C118.674 13.3224 119.709 12.2451 121.01 11.4557C122.333 10.6664 123.805 10.2717 125.426 10.2717C126.791 10.2717 127.986 10.4957 129.01 10.9437C130.055 11.3917 130.941 12.0104 131.666 12.7997C132.391 13.5891 132.946 14.4957 133.33 15.5197C133.714 16.5224 133.906 17.6104 133.906 18.7837C133.906 19.0824 133.885 19.3917 133.842 19.7117C133.821 20.0317 133.767 20.3091 133.682 20.5437H120.242V17.3437H131.314L129.33 18.8477C129.522 17.8664 129.469 16.9917 129.17 16.2237C128.893 15.4557 128.423 14.8477 127.762 14.3997C127.122 13.9517 126.343 13.7277 125.426 13.7277C124.551 13.7277 123.773 13.9517 123.09 14.3997C122.407 14.8264 121.885 15.4664 121.522 16.3197C121.181 17.1517 121.053 18.1651 121.138 19.3597C121.053 20.4264 121.191 21.3757 121.554 22.2077C121.938 23.0184 122.493 23.6477 123.218 24.0957C123.965 24.5437 124.818 24.7677 125.778 24.7677C126.738 24.7677 127.549 24.5651 128.21 24.1597C128.893 23.7544 129.426 23.2104 129.81 22.5277L133.202 24.1917C132.861 25.0237 132.327 25.7597 131.602 26.3997C130.877 27.0397 130.013 27.5411 129.01 27.9037C128.029 28.2664 126.941 28.4477 125.746 28.4477Z" fill="white"/>
+                                    <path d="M113.804 28.2557C111.841 28.2557 110.316 27.7224 109.228 26.6557C108.161 25.5677 107.628 24.0424 107.628 22.0797V14.3997H104.62V10.6557H104.94C105.793 10.6557 106.454 10.4317 106.924 9.98375C107.393 9.53574 107.628 8.88508 107.628 8.03174V6.68774H111.82V10.6557H115.82V14.3997H111.82V21.8557C111.82 22.4317 111.916 22.9224 112.108 23.3277C112.321 23.7331 112.641 24.0424 113.068 24.2557C113.516 24.4691 114.081 24.5757 114.764 24.5757C114.913 24.5757 115.084 24.5651 115.276 24.5437C115.489 24.5224 115.692 24.5011 115.884 24.4797V28.0637C115.585 28.1064 115.244 28.1491 114.86 28.1917C114.476 28.2344 114.124 28.2557 113.804 28.2557Z" fill="white"/>
+                                    <path d="M94.5468 28.4475C93.2028 28.4475 92.0295 28.1489 91.0268 27.5515C90.0455 26.9542 89.2882 26.1222 88.7548 25.0555C88.2428 23.9889 87.9868 22.7409 87.9868 21.3115V10.6555H92.1788V20.9595C92.1788 21.6849 92.3175 22.3249 92.5948 22.8795C92.8935 23.4129 93.3095 23.8395 93.8428 24.1595C94.3975 24.4582 95.0162 24.6075 95.6988 24.6075C96.3815 24.6075 96.9895 24.4582 97.5228 24.1595C98.0562 23.8395 98.4721 23.4022 98.7708 22.8475C99.0695 22.2929 99.2188 21.6315 99.2188 20.8635V10.6555H103.411V28.0635H99.4428V24.6395L99.7948 25.2475C99.3895 26.3142 98.7175 27.1142 97.7788 27.6475C96.8615 28.1809 95.7842 28.4475 94.5468 28.4475Z" fill="white"/>
+                                    <path d="M77.4157 28.4477C75.709 28.4477 74.1517 28.0531 72.7437 27.2637C71.357 26.4744 70.2477 25.3971 69.4157 24.0317C68.605 22.6664 68.1997 21.1091 68.1997 19.3597C68.1997 17.6104 68.605 16.0531 69.4157 14.6877C70.2477 13.3224 71.357 12.2451 72.7437 11.4557C74.1304 10.6664 75.6877 10.2717 77.4157 10.2717C79.1224 10.2717 80.669 10.6664 82.0557 11.4557C83.4424 12.2451 84.541 13.3224 85.3517 14.6877C86.1837 16.0317 86.5997 17.5891 86.5997 19.3597C86.5997 21.1091 86.1837 22.6664 85.3517 24.0317C84.5197 25.3971 83.4104 26.4744 82.0237 27.2637C80.637 28.0531 79.101 28.4477 77.4157 28.4477ZM77.4157 24.6077C78.3544 24.6077 79.1757 24.3837 79.8797 23.9357C80.605 23.4877 81.1704 22.8691 81.5757 22.0797C82.0024 21.2691 82.2157 20.3624 82.2157 19.3597C82.2157 18.3357 82.0024 17.4397 81.5757 16.6717C81.1704 15.8824 80.605 15.2637 79.8797 14.8157C79.1757 14.3464 78.3544 14.1117 77.4157 14.1117C76.4557 14.1117 75.613 14.3464 74.8877 14.8157C74.1624 15.2637 73.5864 15.8824 73.1597 16.6717C72.7544 17.4397 72.5517 18.3357 72.5517 19.3597C72.5517 20.3624 72.7544 21.2691 73.1597 22.0797C73.5864 22.8691 74.1624 23.4877 74.8877 23.9357C75.613 24.3837 76.4557 24.6077 77.4157 24.6077Z" fill="white"/>
+                                    <path d="M50.5083 28.0636V4.22363H59.3723C60.9936 4.22363 62.423 4.5223 63.6603 5.11963C64.919 5.69563 65.9003 6.54897 66.6043 7.67963C67.3083 8.78897 67.6603 10.1436 67.6603 11.7436C67.6603 13.3863 67.2656 14.7836 66.4763 15.9356C65.7083 17.0876 64.663 17.941 63.3403 18.4956L68.8123 28.0636H63.8843L58.0283 17.5996L60.8443 19.2636H54.8603V28.0636H50.5083ZM54.8603 15.4236H59.4363C60.2256 15.4236 60.9083 15.2743 61.4843 14.9756C62.0603 14.6556 62.5083 14.2183 62.8283 13.6636C63.1483 13.109 63.3083 12.469 63.3083 11.7436C63.3083 10.997 63.1483 10.357 62.8283 9.82363C62.5083 9.26897 62.0603 8.8423 61.4843 8.54363C60.9083 8.22363 60.2256 8.06363 59.4363 8.06363H54.8603V15.4236Z" fill="white"/>
+                                    <defs>
+                                    <clipPath id="clip0_617_270">
+                                    <rect width="40" height="32.6713" fill="white" transform="translate(0.508301)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                                
+                            </a>
+    
+                            <p class="para-footer">Corporate business typically refers to large-scale mansola it enterprises or organizat</p>
+    
+                            <ul class="d-flex gap-3 social-ul">
+                                <li>
+                                    <a href="">
+                                        <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.17383 9.3125H5.97656V15.875H3.04688V9.3125H0.644531V6.61719H3.04688V4.53711C3.04688 2.19336 4.45312 0.875 6.5918 0.875C7.61719 0.875 8.70117 1.08008 8.70117 1.08008V3.39453H7.5C6.32812 3.39453 5.97656 4.09766 5.97656 4.85938V6.61719H8.58398L8.17383 9.3125Z" fill="white"/>
+                                        </svg>                                                                                                                     
+                                    </a>
+                                </li>
+                                
+    
+                                <li>
+                                    <a href="">
+                                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.5625 4.00586C9.4082 4.00586 10.9316 5.5293 10.9316 7.375C10.9316 9.25 9.4082 10.7441 7.5625 10.7441C5.6875 10.7441 4.19336 9.25 4.19336 7.375C4.19336 5.5293 5.6875 4.00586 7.5625 4.00586ZM7.5625 9.57227C8.76367 9.57227 9.73047 8.60547 9.73047 7.375C9.73047 6.17383 8.76367 5.20703 7.5625 5.20703C6.33203 5.20703 5.36523 6.17383 5.36523 7.375C5.36523 8.60547 6.36133 9.57227 7.5625 9.57227ZM11.8398 3.88867C11.8398 3.44922 11.4883 3.09766 11.0488 3.09766C10.6094 3.09766 10.2578 3.44922 10.2578 3.88867C10.2578 4.32812 10.6094 4.67969 11.0488 4.67969C11.4883 4.67969 11.8398 4.32812 11.8398 3.88867ZM14.0664 4.67969C14.125 5.76367 14.125 9.01562 14.0664 10.0996C14.0078 11.1543 13.7734 12.0625 13.0117 12.8535C12.25 13.6152 11.3125 13.8496 10.2578 13.9082C9.17383 13.9668 5.92188 13.9668 4.83789 13.9082C3.7832 13.8496 2.875 13.6152 2.08398 12.8535C1.32227 12.0625 1.08789 11.1543 1.0293 10.0996C0.970703 9.01562 0.970703 5.76367 1.0293 4.67969C1.08789 3.625 1.32227 2.6875 2.08398 1.92578C2.875 1.16406 3.7832 0.929688 4.83789 0.871094C5.92188 0.8125 9.17383 0.8125 10.2578 0.871094C11.3125 0.929688 12.25 1.16406 13.0117 1.92578C13.7734 2.6875 14.0078 3.625 14.0664 4.67969ZM12.6602 11.2422C13.0117 10.3926 12.9238 8.3418 12.9238 7.375C12.9238 6.4375 13.0117 4.38672 12.6602 3.50781C12.4258 2.95117 11.9863 2.48242 11.4297 2.27734C10.5508 1.92578 8.5 2.01367 7.5625 2.01367C6.5957 2.01367 4.54492 1.92578 3.69531 2.27734C3.10938 2.51172 2.66992 2.95117 2.43555 3.50781C2.08398 4.38672 2.17188 6.4375 2.17188 7.375C2.17188 8.3418 2.08398 10.3926 2.43555 11.2422C2.66992 11.8281 3.10938 12.2676 3.69531 12.502C4.54492 12.8535 6.5957 12.7656 7.5625 12.7656C8.5 12.7656 10.5508 12.8535 11.4297 12.502C11.9863 12.2676 12.4551 11.8281 12.6602 11.2422Z" fill="white"/>
+                                        </svg>                                                                              
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.0596 6.77491L15.8879 0H14.5068L9.44607 5.88256L5.40411 0H0.742188L6.85442 8.89547L0.742188 16H2.12338L7.4676 9.78782L11.7362 16H16.3981L10.0593 6.77491H10.0596ZM8.16787 8.97384L7.54857 8.08805L2.62104 1.03974H4.74248L8.71905 6.72795L9.33834 7.61374L14.5074 15.0075H12.386L8.16787 8.97418V8.97384Z" fill="white"/>
+                                        </svg>                                                                               
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.1875 0.8125C12.6855 0.8125 13.125 1.25195 13.125 1.7793V13C13.125 13.5273 12.6855 13.9375 12.1875 13.9375H0.908203C0.410156 13.9375 0 13.5273 0 13V1.7793C0 1.25195 0.410156 0.8125 0.908203 0.8125H12.1875ZM3.95508 12.0625V5.82227H2.02148V12.0625H3.95508ZM2.98828 4.94336C3.60352 4.94336 4.10156 4.44531 4.10156 3.83008C4.10156 3.21484 3.60352 2.6875 2.98828 2.6875C2.34375 2.6875 1.8457 3.21484 1.8457 3.83008C1.8457 4.44531 2.34375 4.94336 2.98828 4.94336ZM11.25 12.0625V8.63477C11.25 6.96484 10.8691 5.64648 8.90625 5.64648C7.96875 5.64648 7.32422 6.17383 7.06055 6.67188H7.03125V5.82227H5.18555V12.0625H7.11914V8.98633C7.11914 8.16602 7.26562 7.375 8.29102 7.375C9.28711 7.375 9.28711 8.3125 9.28711 9.01562V12.0625H11.25Z" fill="white"/>
+                                        </svg>                                                                               
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col">
+                            <h4>Service Menu</h4>
+    
+                            <ul class="d-flex flex-column gap-3 justify-content-center">
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z" fill="#83CD20"/>
+                                    </svg>  
+    
+                                    <a href="">Your Startup</a>
+                                </li>
+    
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z" fill="#83CD20"/>
+                                    </svg>  
+    
+                                    <a href="">Your Startup</a>
+                                </li>
+    
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z" fill="#83CD20"/>
+                                    </svg>  
+    
+                                    <a href="">Knew About Fonts</a>
+                                </li>
+    
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z" fill="#83CD20"/>
+                                    </svg>  
+    
+                                    <a href="">Knew About Fonts</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col">
+                            <h4>Useful Link</h4>
+    
+                            <ul class="d-flex flex-column gap-3 justify-content-center">
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z" fill="#83CD20"/>
+                                    </svg>                                     
+    
+                                    <a href="">Latest News</a>
+                                </li>
+                                
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z" fill="#83CD20"/>
+                                    </svg>                                     
+    
+                                    <a href="">Carrers</a>
+                                </li>
+    
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z" fill="#83CD20"/>
+                                    </svg>                                     
+    
+                                    <a href="">General Inquiries</a>
+                                </li>
+    
+                                <li class="d-flex gap-3 align-items-center">
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z" fill="#83CD20"/>
+                                    </svg>                                     
+    
+                                    <a href="">Case Studies</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col">
+                            <h4>Gallery</h4>
+
+                            <ul class="imgs-ul">
+                                <li>
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (1).png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (2).png">
+                                    </a>
+                                </li>
+
+                                <li >
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (3).png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (4).png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (5).png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="./imgs/footer-imgs (6).png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <p class="bottom-para col">© Yoursitename  2024 | All Rights Reserved</p>
+
+                        <ul class="d-flex justify-content-end gap-3 col">
+                            <li>
+                                <a href="">Trams & Condition</a>
+                            </li>
+
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.js"></script>
+    </body>
+</html>
